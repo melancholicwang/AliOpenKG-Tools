@@ -1,0 +1,38 @@
+# 数据文件
+*.nt
+*.ttl
+*.rar
+*.zip
+output.nt
+*_output.nt
+wConcept_part1_output.nt
+marketOnly_part1_output.nt
+wclass_correct_output.nt
+wclass_output.nt
+scene_test_output.nt
+aliopenkg.pdf
+SSI-2019-0271.pdf
+
+# 数据目录
+AliOpenKG_ABox_Part*/
+AliOpenKG_TBox/
+extracted_part*/
+sample_extract_1/
+
+# 样本数据文件
+samples/*.csv
+
+# 临时文件和缓存
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+._*
+
+# 可能包含凭证的配置文件
+config/credentials.json
+*.env
+
+# 个人IDE配置（可选是否包含）
+.idea/
+.specstory/
